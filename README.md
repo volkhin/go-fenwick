@@ -1,4 +1,6 @@
-# Fenwick Tree [![GoDoc](https://godoc.org/github.com/volkhin/go-fenwick?status.svg)](https://godoc.org/github.com/volkhin/go-fenwick)
+# Fenwick Tree
+[![GoDoc](https://godoc.org/github.com/volkhin/go-fenwick?status.svg)](https://godoc.org/github.com/volkhin/go-fenwick)
+[![Build Status](https://travis-ci.org/volkhin/go-fenwick.svg?branch=master)](https://travis-ci.org/volkhin/go-fenwick)
 
 Simple but still useful data structure [Fenwick
 Tree](https://en.wikipedia.org/wiki/Fenwick_tree) implemented in Go language.
