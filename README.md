@@ -1,9 +1,19 @@
-# Fenwick Tree
+# Fenwick Tree [![GoDoc](https://godoc.org/github.com/volkhin/go-fenwick?status.svg)](https://godoc.org/github.com/volkhin/go-fenwick)
+
 Simple but still useful data structure [Fenwick
 Tree](https://en.wikipedia.org/wiki/Fenwick_tree) implemented in Go language.
 
-`go get` it as `github.com/volkhin/go-fenwick`, import it as
-`github.com/volkhin/go-fenwick`, use it as `fenwick`.
+Install package with
+```bash
+go get github.com/volkhin/go-fenwick
+```
+
+Import it with
+```go
+import "github.com/volkhin/go-fenwick"
+```
+
+Use `fenwick` package name inside the code.
 
 ## Usage example
 
