@@ -28,7 +28,7 @@ func TestBasic(t *testing.T) {
 func TestCorrectness(t *testing.T) {
 	rawValues := make([]int, 100)
 	f := fenwick.New(100)
-	for iteration := 0; iteration < 100; iteration++ {
+	for iteration := 0; iteration < 1000; iteration++ {
 		op := rand.Intn(2)
 		switch op {
 		case 0: // add
