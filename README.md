@@ -2,6 +2,9 @@
 Simple but still useful data structure [Fenwick
 Tree](https://en.wikipedia.org/wiki/Fenwick_tree) implemented in Go language.
 
+`go get` it as `github.com/volkhin/go-fenwick`, import it as
+`github.com/volkhin/go-fenwick`, use it as `fenwick`.
+
 ## Usage example
 
 ```go
