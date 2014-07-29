@@ -14,14 +14,14 @@ func TestBasic(t *testing.T) {
 	}
 	value := f.Sum(0, 9)
 	if value != 0 {
-		t.Errorf("Error: got %v, %v; expected 0, nil", value, err)
+		t.Errorf("Error: got %v; expected 0, nil", value)
 	}
 	if err := f.Add(3, 42); err != nil {
 		t.Errorf("Error! %v", err)
 	}
 	value = f.Sum(0, 9)
 	if value != 42 {
-		t.Errorf("Error: got %v, %v; expected 42, nil", value, err)
+		t.Errorf("Error: got %v; expected 42", value)
 	}
 }
 
